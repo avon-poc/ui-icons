@@ -7,9 +7,9 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface UiIcon {
-        "color": any;
+        "color"?: any;
         "icon": string;
-        "size": any;
+        "size"?: any;
     }
 }
 declare global {

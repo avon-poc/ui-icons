@@ -9,8 +9,8 @@ import { icons } from './icons'
 
 export class UiIcon {
   @Prop() icon: string;
-  @Prop() color;
-  @Prop() size;
+  @Prop() color?;
+  @Prop() size?;
 
   get content() {
     return icons[this.icon].content

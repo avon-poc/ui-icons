@@ -17,7 +17,7 @@ export class UiIcon {
   }
 
   render() {
-    return <svg viewBox={icons[this.icon].viewBox} preserveAspectRatio="none" height={this.size} color={this.color} >
+    return <svg viewBox={icons[this.icon].viewBox} preserveAspectRatio="none" style={{height: this.size}} color={this.color} >
       {this.content}
     </svg>;
   }
